@@ -26,9 +26,9 @@ st.sidebar.title("Fill Important Details")
 st.sidebar.image("bg.png")
 
 #========= API KEY ==========
-GOOGLE_API_KEY="AQ.Ab8RN6Ji088L_pgZ7yex2GXLJLtILoqehdWMlfaOBRn_fgHDag"
-GROQ_API_KEY="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"
-TAVILY_API_KEY="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"
+GOOGLE_API_KEY=st.sidebar.text_input("Gemini-api",type="password")
+GROQ_API_KEY=st.sidebar.text_input("Groq-api",type="password")
+TAVILY_API_KEY=st.sidebar.text_input("Tavily-api",type="password")
 print("Done")
 
 
